@@ -1,0 +1,10 @@
+<input type="text" class="form-control" [(ngModel)]="firstName">
+
+
+<button class="btn btn-primary" (click)="onClickNames()">Submit Names</button>
+
+<p>Input är 2-way bind till firstName {{firstName}}
+  <br>
+  button kallar metoden onClickNames() som loggar i console, skickar
+  firstName till app.service.ts
+</p>
